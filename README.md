@@ -10,4 +10,4 @@ The codes are written in `Julia` programming language and make use of the `Quant
 ## Data
 Data required to reproduce figures in "Contractive Unitary and Classical Shadow Tomography":
 
-[SizeDistrib.mat](SizeDistrib.mat) illustrates the difference in size distribution between random Clifford ensemble and contractive unitary ensemble.[sample1.mat](sample1.mat) displays the numerical result of the classical shadow protocol for size-k Pauli operators.[sampleSlide.mat](sampleSlide.mat) exhibits the numerical result of the classical shadow protocol using the 'sliding trick'.
+`SizeDistrib.mat` illustrates the difference in size distribution between random Clifford ensemble and contractive unitary ensemble.`sample1.mat` displays the numerical result of the classical shadow protocol for size-k Pauli operators.`sampleSlide.mat` exhibits the numerical result of the classical shadow protocol using the 'sliding trick'.
