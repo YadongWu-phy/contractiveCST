@@ -1,6 +1,4 @@
 using Statistics
-using CSV
-using DataFrames
 using QuantumClifford
 using Random
 using StableRNGs; 
@@ -74,9 +72,3 @@ for ks in 1:length(k_sub)
     Ovar = mean(Oave .^2)-Oest.^2;
     push!(Omk,Oest);push!(Ovk,Ovar);
 end
-
-nfile = join(["N",string(N_sites),"Sliding_RC_ZXZ.CSV"])
-name1 = ["N_sites","k_sub","Omk","Ovk","W_RC","Msample"];
-valu1 = [N_sites,k_sub,Omk,Ovk,Wei_rc,Sample];
-df1 = DataFrame(name = name1;value = valu1);
-CSV.write(nfile,df1)
