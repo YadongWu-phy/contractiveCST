@@ -1,5 +1,6 @@
 # ContractiveCST
 Numerical results on the contractive unitary for Classical Shadow Tomography.
+The codes are written in `Julia` programming language and make use of the `QuantumClifford.jl` package.
 
 ## Calculation Scripts
 [ContractSample.jl](ContractSample.jl) and [CliffordSample.jl](CliffordSample.jl) are utilized to simulate classical shadow tomography protocols with different unitary ensembles, with knowledge of the location where Pauli operators are applied.
