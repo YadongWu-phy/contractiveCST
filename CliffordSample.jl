@@ -1,6 +1,4 @@
 using Statistics
-using CSV
-using DataFrames
 using QuantumClifford
 using Random
 using StableRNGs; 
@@ -58,8 +56,3 @@ for ks in 1:length(k_sub)
 end
 
 Wei_Haar = 2 .^(k_sub) .+1;
-nfile = join(["N",string(N_sites),"Haar_ZXZ.CSV"])
-name1 = ["N_sites","k_sub","Omk","Ovk","W_rc","Msample"];
-valu1 = [N_sites,k_sub,Omk,Ovk,Wei_Haar,Sample];
-df1 = DataFrame(name = name1;value = valu1);
-CSV.write(nfile,df1)
