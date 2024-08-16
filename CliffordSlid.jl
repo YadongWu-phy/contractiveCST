@@ -1,5 +1,4 @@
 using Statistics
-using Plots
 using CSV
 using DataFrames
 using QuantumClifford
